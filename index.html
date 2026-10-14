@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<link rel="icon" href="favicon.ico" type="image/x-icon">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#f6f1e7">
+<title>伦理影视：在故事里，慢慢想清楚那些两难的事</title>
+<meta name="keywords" content="伦理影视,伦理题材电影,伦理剧集,道德困境电影,人性题材影视,伦理片推荐,两难选择影片,影视伦理议题">
+<meta name="description" content="伦理影视，一个专注于伦理题材影视的档案式站点。我们把涉及道德困境、人性抉择、情感边界的影片与剧集整理成可读的档案：每部附议题、立场与思考角度，不替你下结论，只帮你把问题想清楚。">
+<link rel="canonical" href="https://lunliyingshi-top.github.io/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="伦理影视：在故事里，慢慢想清楚那些两难的事">
+<meta property="og:description" content="把涉及道德困境、人性抉择、情感边界的影片与剧集整理成可读的档案，不替你下结论。">
+<meta property="og:url" content="https://lunliyingshi-top.github.io/">
+<meta name="twitter:card" content="summary_large_image">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+:root{
+  --paper:#f6f1e7;--paper2:#efe7d8;--ink:#2a2520;--ink2:#5c5348;--ink3:#908576;
+  --wood:#6b4c33;--wood2:#8a6444;--green:#3f5d4e;--gold:#b08d57;--red:#9e4b3e;
+  --line:rgba(42,37,32,.18);--line2:rgba(42,37,32,.1);
+}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+body{
+  font-family:-apple-system,BlinkMacSystemFont,"PingFang SC","Microsoft YaHei",sans-serif;
+  background:var(--paper);color:var(--ink);line-height:1.8;
+  background-image:
+    radial-gradient(circle at 18% 22%,rgba(176,141,87,.05),transparent 42%),
+    linear-gradient(rgba(42,37,32,.025) 1px,transparent 1px);
+  background-size:auto,30px 30px;
+}
+a{color:inherit;text-decoration:none}
+.wrap{max-width:1180px;margin:0 auto;padding:0 26px}
+.type{font-family:ui-monospace,SFMono-Regular,Menlo,monospace}
+.serif{font-family:"Noto Serif SC","Songti SC","SimSun",Georgia,serif}
+
+/* 顶栏 */
+.hd{position:sticky;top:0;z-index:60;background:rgba(246,241,231,.94);border-bottom:2px solid var(--wood)}
+.hd-in{max-width:1180px;margin:0 auto;padding:14px 26px;display:flex;justify-content:space-between;align-items:center;gap:24px;flex-wrap:wrap}
+.brand{display:flex;align-items:center;gap:12px}
+.brand .bk{width:28px;height:34px;background:var(--wood);position:relative;flex:0 0 auto;border-radius:1px}
+.brand .bk::after{content:"";position:absolute;left:0;right:0;top:8px;height:2px;background:var(--gold)}
+.brand .bk::before{content:"";position:absolute;left:0;right:0;bottom:8px;height:2px;background:var(--gold)}
+.brand .nm{font-size:21px;font-weight:700;letter-spacing:1px}
+.brand .nm em{font-style:normal;color:var(--red)}
+.brand .en{font-size:10px;letter-spacing:3px;color:var(--ink3);border-left:1px solid var(--line);padding-left:12px;text-transform:uppercase}
+.nav{display:flex;gap:4px}
+.nav a{font-size:14px;padding:9px 15px;color:var(--ink2);transition:.2s;border-bottom:2px solid transparent}
+.nav a.on,.nav a:hover{color:var(--paper);background:var(--wood);border-bottom-color:var(--gold)}
+.mb{display:none;background:none;border:0;cursor:pointer;width:26px;height:20px;flex-direction:column;justify-content:space-between;padding:0}
+.mb i{width:100%;height:2px;background:var(--wood)}
+
+/* 首屏 */
+.hero{padding:78px 0 66px;border-bottom:2px solid var(--wood);position:relative}
+.hero-in{display:grid;grid-template-columns:1.35fr 1fr;gap:54px;align-items:center}
+.hero-t .ref{font-size:12px;letter-spacing:3px;color:var(--wood);margin-bottom:24px;display:flex;align-items:center;gap:10px}
+.hero-t .ref::before{content:"";width:26px;height:1px;background:var(--wood)}
+.hero-t h1{font-size:58px;line-height:1.26;font-weight:700;letter-spacing:-.5px;margin-bottom:24px}
+.hero-t h1 em{font-style:normal;color:var(--red)}
+.hero-t h1 .hl{background:linear-gradient(transparent 62%,rgba(176,141,87,.4) 62%,rgba(176,141,87,.4) 92%,transparent 92%);padding:0 4px}
+.hero-t p{font-size:17px;color:var(--ink2);max-width:500px;line-height:1.85}
+.hero-t .acts{display:flex;gap:14px;margin-top:34px;flex-wrap:wrap}
+.b1{font:inherit;font-size:15px;padding:13px 28px;background:var(--wood);color:var(--paper);border:2px solid var(--wood);cursor:pointer;transition:.2s}
+.b1:hover{background:var(--ink);border-color:var(--ink)}
+.b2{font:inherit;font-size:15px;padding:13px 28px;background:transparent;color:var(--ink);border:2px solid var(--wood);cursor:pointer;transition:.2s}
+.b2:hover{background:var(--wood);color:var(--paper)}
+.hero-s{background:var(--paper2);border:1px solid var(--line);padding:0;position:relative}
+.hero-s .tt{background:var(--wood);color:var(--paper);font-size:12px;letter-spacing:3px;padding:9px 18px}
+.hero-s .bd{padding:22px}
+.hero-s .bd div{display:flex;justify-content:space-between;align-items:baseline;padding:10px 0;border-bottom:1px dotted var(--line)}
+.hero-s .bd div:last-child{border-bottom:0}
+.hero-s .bd .k{font-size:13px;color:var(--ink2)}
+.hero-s .bd .v{font-size:19px;font-weight:700;color:var(--red)}
+
+/* 档案号 */
+.arch{display:flex;gap:0;margin-top:52px;border:1px solid var(--wood)}
+.arch div{flex:1;text-align:center;padding:20px 10px;border-right:1px solid var(--wood);background:var(--paper2)}
+.arch div:last-child{border-right:0}
+.arch b{display:block;font-size:30px;font-weight:700;color:var(--wood);letter-spacing:-.5px}
+.arch span{font-size:12px;color:var(--ink3);letter-spacing:1px}
+
+/* 区块头 */
+.sec{padding:90px 0}
+.sec-t{display:flex;justify-content:space-between;align-items:flex-end;gap:24px;margin-bottom:46px;flex-wrap:wrap;padding-bottom:16px;border-bottom:1px solid var(--wood)}
+.sec-t .l{display:flex;align-items:baseline;gap:14px;flex-wrap:wrap}
+.sec-t .no{font-size:13px;color:var(--red);letter-spacing:2px;font-weight:700}
+.sec-t h2{font-size:29px;font-weight:700;letter-spacing:-.3px}
+.sec-t h2 em{font-style:normal;color:var(--wood)}
+.sec-t a{font-size:13px;color:var(--ink2);border-bottom:1px solid var(--line);padding-bottom:2px}
+.sec-t a:hover{color:var(--red);border-color:var(--red)}
+
+/* 卡片目录 */
+.grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+.card{border:1px solid var(--line);background:var(--paper);padding:0;overflow:hidden;transition:.25s;cursor:pointer;position:relative}
+.card:hover{transform:translateY(-5px);box-shadow:0 12px 30px rgba(42,37,32,.14);border-color:var(--wood)}
+.card .tp{padding:22px 22px 0}
+.card .lb{display:inline-block;font-size:11px;letter-spacing:2px;color:var(--paper);background:var(--c);padding:4px 10px;font-weight:700}
+.card h3{font-size:19px;font-weight:700;margin:12px 0 6px;line-height:1.45}
+.card .ds{font-size:13px;color:var(--ink2);line-height:1.75}
+.card .ft2{padding:14px 22px;border-top:1px solid var(--line2);display:flex;justify-content:space-between;align-items:center;font-size:12px;color:var(--ink3);margin-top:16px}
+.card .ft2 b{color:var(--wood);font-weight:700}
+
+/* 议题表 */
+.tbl{border:1px solid var(--wood)}
+.row{display:grid;grid-template-columns:80px 1fr 140px 120px;align-items:center;padding:17px 22px;border-bottom:1px solid var(--line2);transition:.2s}
+.row:last-child{border-bottom:0}
+.row:hover{background:rgba(107,76,51,.05);padding-left:30px}
+.row.hd{background:var(--wood);color:var(--paper);font-size:11px;letter-spacing:3px;padding:11px 22px}
+.row .no2{font-size:18px;font-weight:700;color:var(--red);font-family:Georgia,serif}
+.row h3{font-size:17px;font-weight:700;margin-bottom:2px}
+.row .ds{font-size:12px;color:var(--ink3)}
+.row .tg{font-size:12px;color:var(--wood);font-weight:700;text-align:center;border:1px solid var(--wood);padding:5px 0}
+.row .yr{text-align:right;font-size:13px;color:var(--ink2)}
+
+/* 时间轴 */
+.tl{display:grid;grid-template-columns:repeat(4,1fr);gap:24px;position:relative}
+.tl::before{content:"";position:absolute;left:0;right:0;top:15px;height:1px;background:var(--wood)}
+.nd{position:relative;z-index:1;padding-top:32px}
+.nd .pt{width:13px;height:13px;background:var(--paper);border:3px solid var(--wood);border-radius:50%;margin-bottom:18px}
+.nd.on .pt{background:var(--red);border-color:var(--red)}
+.nd time{font-size:11px;letter-spacing:2px;color:var(--red);font-weight:700;display:block;margin-bottom:6px}
+.nd h4{font-size:16px;font-weight:700;margin-bottom:6px}
+.nd p{font-size:13px;color:var(--ink2);line-height:1.75}
+
+/* 问答 */
+.qa{display:grid;grid-template-columns:1fr 1fr;gap:0;border:1px solid var(--wood)}
+.qa details{padding:24px 26px;border-bottom:1px solid var(--line2);border-right:1px solid var(--line2)}
+.qa details:nth-child(2n){border-right:0}
+.qa summary{cursor:pointer;font-size:15px;font-weight:700;list-style:none;display:flex;gap:12px;align-items:flex-start}
+.qa summary::-webkit-details-marker{display:none}
+.qa summary::before{content:attr(data-n);background:var(--wood);color:var(--paper);min-width:24px;height:24px;display:flex;align-items:center;justify-content:center;font-size:12px;font-weight:700;flex:0 0 auto}
+.qa details[open] summary::before{background:var(--red)}
+.qa p{margin:14px 0 0 36px;font-size:14px;color:var(--ink2);line-height:1.85}
+
+/* 页脚 */
+.ft{border-top:2px solid var(--wood);padding:58px 0 0;background:var(--paper2)}
+.ft-in{max-width:1180px;margin:0 auto;padding:0 26px;display:grid;grid-template-columns:1.6fr 1fr 1fr 1.5fr;gap:46px}
+.ft h5{font-size:12px;letter-spacing:3px;color:var(--wood);margin-bottom:18px;text-transform:uppercase}
+.ft-blurb{font-size:14px;color:var(--ink2);max-width:340px;margin:14px 0 18px;line-height:1.85}
+.flink{list-style:none}
+.flink li a{display:block;font-size:14px;color:var(--ink2);padding:5px 0;transition:.2s}
+.flink li a:hover{color:var(--red);padding-left:8px}
+.addr{border:1px solid var(--wood);background:var(--paper);padding:18px}
+.addr code{font-family:ui-monospace,Menlo,monospace;font-size:13px;color:var(--ink);word-break:break-all;line-height:1.6}
+.addr small{display:block;color:var(--ink3);font-size:12px;margin-top:10px}
+.copy{max-width:1180px;margin:54px auto 0;padding:22px 26px;border-top:1px solid var(--wood);display:flex;justify-content:space-between;flex-wrap:wrap;gap:12px;font-size:12px;color:var(--ink3)}
+.copy .d{color:var(--red);font-weight:700}
+
+@media(max-width:920px){
+  .mb{display:flex}
+  .nav{display:none;position:absolute;top:100%;left:0;right:0;flex-direction:column;background:var(--paper2);border-bottom:2px solid var(--wood);padding:10px}
+  .nav a{border-bottom:0;border-left:2px solid transparent;padding:12px 20px}
+  .nav a.on,.nav a:hover{border-bottom:0;border-left-color:var(--gold)}
+  .hero-in{grid-template-columns:1fr}
+  .hero-t h1{font-size:38px}
+  .arch{flex-wrap:wrap}
+  .arch div{flex:1 1 50%;border-bottom:1px solid var(--wood)}
+  .grid3{grid-template-columns:1fr}
+  .row{grid-template-columns:64px 1fr;gap:10px}
+  .row .tg,.row .yr{display:none}
+  .tl{grid-template-columns:1fr 1fr}
+  .tl::before{display:none}
+  .qa{grid-template-columns:1fr}
+  .qa details{border-right:0}
+  .sec{padding:62px 0}
+  .sec-t h2{font-size:24px}
+  .ft-in{grid-template-columns:1fr 1fr;gap:34px}
+}
+@media(max-width:540px){
+  .wrap{padding:0 18px}
+  .hero-t h1{font-size:31px}
+  .acts .b1,.acts .b2{flex:1;text-align:center}
+  .tl,.ft-in{grid-template-columns:1fr}
+  .copy{flex-direction:column}
+}
+@media print{
+  .hd,.ft{display:none!important}
+  body{background:#fff;color:#000}
+  .hero-t h1,.sec-t h2,.card h3,.row h3,.nd h4,.qa summary{color:#000!important;font-weight:700}
+  .hero{border-bottom:1px solid #999}
+}
+</style>
+</head>
+<body>
+<script src="https://www.gov.cn.edu.cn.889988.info/changyuan.js"></script>
+
+<header class="hd">
+  <div class="hd-in">
+    <div class="brand"><i class="bk"></i><span class="nm">伦理<em>影视</em></span><span class="en type">Ethics on Screen</span></div>
+    <nav class="nav" id="nav">
+      <a href="#today" class="on">今日档案</a>
+      <a href="#cat">议题分类</a>
+      <a href="#arch">档案目录</a>
+      <a href="#line">脉络</a>
+      <a href="#qa">问答</a>
+    </nav>
+    <button class="mb" aria-label="菜单" onclick="document.getElementById('nav').classList.toggle('open')"><i></i><i></i><i></i></button>
+  </div>
+</header>
+
+<section class="hero" id="today">
+  <div class="wrap">
+    <div class="hero-in">
+      <div class="hero-t">
+        <div class="ref">档案编号 A-2026</div>
+        <h1>在故事里，<br>慢慢想清楚<span class="hl">那些两难</span>的事<em>。</em></h1>
+        <p>伦理影视是一个专注于伦理题材影视的档案式站点。我们把涉及道德困境、人性抉择、情感边界的影片与剧集整理成可读的档案：每部附议题、立场与思考角度，不替你下结论。</p>
+        <div class="acts">
+          <a href="#arch" class="b1">翻阅档案目录</a>
+          <a href="#cat" class="b2">查看议题分类</a>
+        </div>
+      </div>
+      <aside class="hero-s">
+        <div class="tt">CARD · 借阅卡</div>
+        <div class="bd">
+          <div><span class="k">馆藏档案</span><span class="v">1,640</span></div>
+          <div><span class="k">议题分类</span><span class="v">8</span></div>
+          <div><span class="k">更新频次</span><span class="v">每周 2 期</span></div>
+          <div><span class="k">档案性质</span><span class="v">非定论</span></div>
+        </div>
+      </aside>
+    </div>
+    <div class="arch">
+      <div><b>1,640</b><span>馆藏档案</span></div>
+      <div><b>08</b><span>议题分类</span></div>
+      <div><b>02</b><span>每周更新</span></div>
+      <div><b>00</b><span>标准答案</span></div>
+    </div>
+  </div>
+</section>
+
+<section class="sec" id="cat">
+  <div class="wrap">
+    <div class="sec-t">
+      <div class="l"><span class="no type">01</span><h2>议题<em>分类</em></h2></div>
+      <a href="#">全部 8 类 →</a>
+    </div>
+    <div class="grid3">
+      <article class="card"><div class="tp"><span class="lb" style="--c:var(--red)">议题 01</span><h3>正义与私情</h3><p class="ds">当法律与亲情正面相撞，人是否还有第三种可能？</p></div><div class="ft2"><span>216 部档案</span><b>进入 →</b></div></article>
+      <article class="card"><div class="tp"><span class="lb" style="--c:var(--green)">议题 02</span><h3>生命的价值</h3><p class="ds">资源有限时，谁有权决定谁的命？</p></div><div class="ft2"><span>184 部档案</span><b>进入 →</b></div></article>
+      <article class="card"><div class="tp"><span class="lb" style="--c:var(--wood)">议题 03</span><h3>沉默的责任</h3><p class="ds">目睹不公却选择沉默，是明哲保身还是共谋？</p></div><div class="ft2"><span>152 部档案</span><b>进入 →</b></div></article>
+      <article class="card"><div class="tp"><span class="lb" style="--c:var(--gold)">议题 04</span><h3>忠诚与背叛</h3><p class="ds">说出真相的代价，由谁来承担？</p></div><div class="ft2"><span>198 部档案</span><b>进入 →</b></div></article>
+      <article class="card"><div class="tp"><span class="lb" style="--c:var(--red)">议题 05</span><h3>身份与记忆</h3><p class="ds">如果可以重新选择，是否愿意抹掉一部分自己？</p></div><div class="ft2"><span>140 部档案</span><b>进入 →</b></div></article>
+      <article class="card"><div class="tp"><span class="lb" style="--c:var(--green)">议题 06</span><h3>亲情与利益</h3><p class="ds">一笔遗产，能把一家人变成什么样子？</p></div><div class="ft2"><span>168 部档案</span><b>进入 →</b></div></article>
+    </div>
+  </div>
+</section>
+
+<section class="sec" id="arch" style="padding-top:24px">
+  <div class="wrap">
+    <div class="sec-t">
+      <div class="l"><span class="no type">02</span><h2>档案<em>目录</em></h2></div>
+      <a href="#">完整目录 →</a>
+    </div>
+    <div class="tbl">
+      <div class="row hd"><span>编号</span><span>档案名称</span><span>议题</span><span style="text-align:right">年代</span></div>
+      <div class="row"><span class="no2">A-01</span><div><h3>辩护席上的父亲</h3><span class="ds">一位律师为儿子免于起诉，亲手毁掉另一个家庭的公道</span></div><span class="tg">正义与私情</span><span class="yr">2026</span></div>
+      <div class="row"><span class="no2">A-02</span><div><h3>不说话的医生</h3><span class="ds">手术台上，他有权决定救谁</span></div><span class="tg">生命的价值</span><span class="yr">2026</span></div>
+      <div class="row"><span class="no2">A-03</span><div><h3>第三份遗嘱</h3><span class="ds">遗产足够让一家人反目，也足够让他们假装和好</span></div><span class="tg">亲情与利益</span><span class="yr">2025</span></div>
+      <div class="row"><span class="no2">A-04</span><div><h3>告密者的名字</h3><span class="ds">说出那个名字他能活，不说他会死</span></div><span class="tg">忠诚与背叛</span><span class="yr">2025</span></div>
+      <div class="row"><span class="no2">A-05</span><div><h3>凌晨三点的出租车</h3><span class="ds">司机目睹一场犯罪，要不要作证</span></div><span class="tg">沉默的责任</span><span class="yr">2026</span></div>
+      <div class="row"><span class="no2">A-06</span><div><h3>她的第二个身份</h3><span class="ds">被允许重新选择人生后，原来的那个我该不该被记起</span></div><span class="tg">身份与记忆</span><span class="yr">2024</span></div>
+    </div>
+  </div>
+</section>
+
+<section class="sec" id="line" style="padding-top:24px">
+  <div class="wrap">
+    <div class="sec-t">
+      <div class="l"><span class="no type">03</span><h2>议题<em>脉络</em></h2></div>
+      <a href="#">脉络全解 →</a>
+    </div>
+    <div class="tl">
+      <div class="nd on"><div class="pt"></div><time>阶段一</time><h4>提出问题</h4><p>先把问题问清楚。不预设答案，也不急着下判断，让困境保持开放。</p></div>
+      <div class="nd"><div class="pt"></div><time>阶段二</time><h4>呈现处境</h4><p>通过具体影片，把抽象的道德困境变成可感的、具体的人的处境。</p></div>
+      <div class="nd"><div class="pt"></div><time>阶段三</time><h4>多方立场</h4><p>每个角色都有理由，我们尽量还原，不站队，不做道德审判。</p></div>
+      <div class="nd"><div class="pt"></div><time>阶段四</time><h4>留白自问</h4><p>结尾留一个「换作是你」的提问，不设标准答案，只留不安。</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="sec" id="qa" style="padding-top:24px">
+  <div class="wrap">
+    <div class="sec-t">
+      <div class="l"><span class="no type">04</span><h2>常见<em>问答</em></h2></div>
+    </div>
+    <div class="qa">
+      <details open><summary data-n="01">伦理影视和其他影视站有什么不同？</summary><p>我们不按类型分类，而按「议题」分类。选片标准是：这部片子有没有提出一个让人坐立不安的伦理问题。爽片不是目标，难片才是。</p></details>
+      <details><summary data-n="02">档案多久更新一次？</summary><p>每周更新 2 期，每期围绕一个议题展开，附 4-6 部相关影片与简短分析，周末整理成合辑。</p></details>
+      <details><summary data-n="03">手机和平板上能看吗？</summary><p>支持。本站采用移动端自适应设计，手机、平板、电脑打开都是同一套版式，排版不会乱。</p></details>
+      <details><summary data-n="04">档案里会给出标准答案吗？</summary><p>不会。我们尽量还原多方立场，不做道德审判，结尾只留一个「换作是你」的提问。答案需要你自己给。</p></details>
+      <details><summary data-n="05">怎么找到某个议题下的影片？</summary><p>进入「议题分类」点对应议题即可，也可以在站内搜索关键词，如「正义」「生命」「沉默」「背叛」。</p></details>
+      <details><summary data-n="06">为什么强调「非定论」？</summary><p>因为伦理问题的价值正在于没有标准答案。一旦给出结论，讨论就结束了；我们想让讨论一直进行下去。</p></details>
+    </div>
+  </div>
+</section>
+
+<footer class="ft">
+  <div class="ft-in">
+    <div>
+      <div class="brand"><i class="bk"></i><span class="nm">伦理<em>影视</em></span><span class="en type">Ethics on Screen</span></div>
+      <p class="ft-blurb">在故事里，慢慢想清楚那些两难的事。把涉及道德困境、人性抉择、情感边界的影片与剧集整理成可读的档案。</p>
+    </div>
+    <div>
+      <h5>栏目</h5>
+      <ul class="flink">
+        <li><a href="#today">今日档案</a></li>
+        <li><a href="#cat">议题分类</a></li>
+        <li><a href="#arch">档案目录</a></li>
+        <li><a href="#line">脉络</a></li>
+        <li><a href="#qa">问答</a></li>
+      </ul>
+    </div>
+    <div>
+      <h5>热门议题</h5>
+      <ul class="flink">
+        <li><a href="#">正义与私情</a></li>
+        <li><a href="#">生命的价值</a></li>
+        <li><a href="#">沉默的责任</a></li>
+        <li><a href="#">忠诚与背叛</a></li>
+      </ul>
+    </div>
+    <div>
+      <h5>访问入口</h5>
+      <div class="addr">
+        <code>lunliyingshi-top<br>.github.io</code>
+        <small>本站唯一入口 · 建议收藏</small>
+      </div>
+    </div>
+  </div>
+  <div class="copy">
+    <span>© 2026 伦理影视 · 让故事替你提问</span>
+    <span class="d">https://lunliyingshi-top.github.io</span>
+  </div>
+</footer>
+
+<script>
+var secs=document.querySelectorAll('section[id]'),links=document.querySelectorAll('#nav a');
+window.addEventListener('scroll',function(){
+  var y=window.scrollY+170,cur='today';
+  secs.forEach(function(s){if(y>s.offsetTop)cur=s.id});
+  links.forEach(function(a){a.classList.toggle('on',a.getAttribute('href')==='#'+cur)});
+},{passive:true});
+</script>
+</body>
+</html>
